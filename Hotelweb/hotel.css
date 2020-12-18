@@ -1,0 +1,122 @@
+.head{  
+    text-align: center;
+    color: maroon;
+    font-style: italic;
+
+}
+ 
+
+ .disall{
+     visibility: hidden;
+ }
+ .cube:hover .disall{
+     visibility: visible;
+
+ }
+
+ .top:visited
+ {
+
+    background-color: hotpink;
+    text-decoration: none;
+
+    color: darkblue;
+   
+    
+ }
+
+ .top.item:visited{
+    cursor: pointer;
+    background-color: darksalmon;
+}
+.top, .bottom{ 
+    position: absolute;
+    text-align: right;
+    color: rgb(70, 3, 3) ;
+    padding: 10px;
+    word-spacing: 20px;
+    font-size: large;
+    font-weight: bolder;
+}
+
+.container{
+    font-size: 30px ;
+    text-align: center;
+    color: purple;
+   
+   
+    background-color:rgb(246 219 218);
+    overflow: auto;
+    border-width: medium ;
+    display: flex;
+    width: auto;
+    
+}
+
+.full{
+    background: url(/Users/siva/Documents/javascript/Hotelweb/img/pic.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 1750px;
+    height: 550px;
+    
+}
+.cube{
+    
+    margin: 10px 10px;
+    border: 2px orange;
+    float: left;
+    width: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: justify;
+    justify-content: center;
+    padding: 10px 10px;
+}
+.single{
+    padding: 0 20px 20px;
+}
+
+ 
+img:hover{
+
+    opacity: .5;
+    transition: .9s;
+}
+.top1{
+    font-size: 40px;
+    text-align: center;
+    color: orangered;
+    font-style: italic;
+}
+header li{
+    list-style: none;
+    display: inline;
+
+}
+footer li{
+    list-style: none;
+    display: inline;
+
+}
+.offer{
+  
+    text-align: center;
+    color: rgb(35, 9, 97);
+    font-size: larger;
+    font-weight: bolder;
+
+    border-color: red;
+     border-style : double ;
+     border-width: 10px;
+    width: 140px;
+    height: 60px;
+    padding: 85px;
+    margin-left: 30px;
+    margin-top: 300px;
+    position: absolute;
+    background-color: khaki;
+    
+
+}
